@@ -1,0 +1,38 @@
+header {
+	height: 60px;
+	background-color: white;
+	box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1);
+	color: #32454c;
+	padding: 0 15px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+nav {
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.nav-brand {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	font-size: 24px;
+	cursor: pointer;
+	transition: all 0.2s;
+	margin-right: 2rem;
+}
+.nav-item {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	font-size: 20px;
+	cursor: pointer;
+	transition: all 0.2s;
+	margin: 0 1rem;
+}
+.nav-item:hover {
+	color: #1e88e5;
+}
+.nav-item[disabled] {
+	pointer-events: none;
+	color: #999;
+}
